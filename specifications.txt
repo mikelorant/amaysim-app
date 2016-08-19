@@ -1,0 +1,21 @@
+A new in-house application has been created by one of our developers and is
+currently deployed on a development server.
+
+You are now tasked with taking this application into a pre-production environment.
+It is required to be a High Availability and Fault Tolerant deployment. The main
+goal is to load test the application, the environment should be treated as if it was
+Production, where all necessary system level and infrastructure components should be
+configured using orchestration and automation tools. Amaysim is interested in
+evaluating containerized environments, so the use of containers, and related
+frameworks, is at your discretion.
+
+After you have completed this work, you will be tasked to handover this application
+stack to your fellow operation team members and after hours support, this handover
+should include any potential issues you have identified with the application. You
+will be invited back to the amaysim offices to present your findings/work.
+
+Getting Started
+You should have a copy of the application artifact, along with credentials to log
+into the development server. You will also have received an invite to Slack our
+communications channel. Here you can ask questions regarding anything that may be
+unclear on the test.
