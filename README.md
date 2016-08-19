@@ -2,7 +2,7 @@
 
 ## Preparation
 
-Create a profile in ~/.aws/crentials
+Create a profile in ~/.aws/credentials
 
 	[amaysim]
 	region = ap-southeast-2
@@ -23,7 +23,7 @@ Creating the stack.
 
 	bundle exec sfn create amaysim-app --file cluster
 
-# Updates
+## Updates
 
 Updating the stack.
 
