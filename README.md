@@ -36,6 +36,10 @@ Docker Compose support is provided to allow the application to run locally.
 	docker-compose build
 	docker-compose up
 
+The web servers public port can be viewed.
+
+	docker-compose port app 80
+
 Removal of the application is as follows.
 
 	docker-compose down -v
