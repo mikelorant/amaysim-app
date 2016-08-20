@@ -33,8 +33,8 @@ Updating the stack.
 
 Docker Compose support is provided to allow the application to run locally.
 
-        docker-compose build
-        docker-compose up
+	docker-compose build
+	docker-compose up
 
 Removal of the application is as follows.
 
