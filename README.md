@@ -28,3 +28,20 @@ Creating the stack.
 Updating the stack.
 
 	bundle exec sfn update amaysim-app --file cluster --defaults
+
+## Development
+
+Docker Compose support is provided to allow the application to run locally.
+
+        docker-compose build
+        docker-compose up
+
+Removal of the application is as follows.
+
+	docker-compose down -v
+
+## Deployments
+
+Deployments are as simple as destroying the instances and letting the auto scaling group recreate them.
+
+The code pipeline is setup that all pushes to the master branch automatically cause Docker Hub to build a new image. Instances automatically pull the latest image therefore deploying the latest code.
