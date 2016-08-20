@@ -60,7 +60,7 @@ SparkleFormation.dynamic(:ec2) do |_name, _config={}|
           "rancher:\n",
           "  services:\n",
           "    app:\n",
-          "      image: mikelorant/amaysim-php\n",
+          "      image: mikelorant/amaysim-app\n",
           "      environment:\n",
           "        DB_HOST: ", _config[:db_host], "\n",
           "        DB_USER: ", ref!("#{_name}_db_user"), "\n",
